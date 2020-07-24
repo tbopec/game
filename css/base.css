@@ -23,6 +23,14 @@
     margin-bottom: auto !important;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.mb-10 {
+    margin-bottom: 8rem;
+}
+
 .ml-auto, .m-auto, .mx-auto {
     margin-left: auto !important;
 }
@@ -43,6 +51,11 @@
     padding: 8px;
 }
 
+.px-2 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
 .mouse-pointer {
     cursor: pointer;
 }
@@ -61,7 +74,7 @@
     background-color: transparent;
     border: 1px solid transparent;
     padding: 0.3rem 0.3rem;
-    margin: 0 8px;
+    margin: 2px 8px;
     font-size: 1.3rem;
     line-height: 1.84615;
     border-radius: 4px;
