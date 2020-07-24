@@ -1,0 +1,150 @@
+.open-hand, .discard {
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 330px;
+    min-height: 160px;
+    max-height: 160px;
+    overflow: auto;
+    align-content: flex-start;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 4px;
+}
+
+.hand-info {
+    padding: 12px;
+}
+
+.hand-info.active {
+    box-shadow: 0 16px 24px yellow, 0 16px 32px rgba(0, 0, 0, 0.16), 0 0 24px rgba(0, 0, 0, 0.08);
+    border: 3px solid yellow;
+}
+
+.hand {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    height: 80px;
+    padding: 8px;
+    box-shadow: 0 16px 24px yellow, 0 16px 32px rgba(0, 0, 0, 0.16), 0 0 24px rgba(0, 0, 0, 0.08);
+    left: 0;
+    right: 0;
+    background: #003a3a;
+}
+
+.action-bar {
+    width: 100%;
+    display: flex;
+}
+
+.hand-0 {
+    background: #003a3a;
+}
+
+.hand-1 {
+    background: #353500;
+}
+
+.hand-2 {
+    background: #420000;
+}
+
+.hand-3 {
+    background: #00254c;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: white;
+    width: 38px;
+    border-radius: 4px;
+    height: 50px;
+    overflow: hidden;
+    margin: 2px;
+    position: relative;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.tile.active {
+  box-shadow: 0 3px 15px yellow, 0 16px 32px rgba(0, 0, 0, 0.16), 0 0 24px rgba(0, 0, 0, 0.08);
+}
+
+.tile.abc {
+    color: darkred;
+}
+
+.tile.tempai {
+    border: 2px solid gold;
+}
+
+.tile.back {
+    color: #55681C;
+}
+
+.tile.back .subline {
+    font-size: 18px;
+    padding: 3px;
+}
+
+.tile.bambus {
+    color: #0f6674;
+}
+
+.tile.dot {
+    color: #004085;
+}
+
+.tile.v-green {
+    color: #0f6674;
+}
+
+.tile .logo {
+    font-size: 55px;
+    font-weight: normal;
+    margin-top: -17px;
+    margin-left: -2px;
+}
+
+.tile.left, .tile.right {
+    width: 55px;
+    height: 40px;
+}
+
+.tile.left {
+    transform: rotate(90deg);
+}
+
+.tile.right {
+    transform: rotate(-90deg);
+    background: transparent;
+}
+
+.tile.top {
+    transform: rotate(-180deg);
+}
+
+.tile .subline {
+    user-select: none;
+    position: absolute;
+    margin: 3px 4px;
+    font-weight: bold;
+    line-height: 12px;
+    border-radius: 15px;
+    background: white;
+}
+
+.tile.dragon .subline, .tile.wind .subline {
+    display: none;
+}
+
+.tile.v-red.dragon .logo {
+    margin: -3px 0 0 -6px;
+}
+
+.vertical-hand {
+    margin: auto;
+    min-height: 600px;
+    writing-mode: tb;
+}

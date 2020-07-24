@@ -1,0 +1,122 @@
+.font-size-large {
+    font-size: 1.4rem;
+    line-height: 1.42857;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.flex-column {
+    flex-direction: column !important;
+}
+
+.mt-auto, .m-auto, .my-auto {
+    margin-top: auto !important;
+}
+
+.mr-auto, .m-auto, .mx-auto {
+    margin-right: auto !important;
+}
+
+.mb-auto, .m-auto, .my-auto {
+    margin-bottom: auto !important;
+}
+
+.ml-auto, .m-auto, .mx-auto {
+    margin-left: auto !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.border {
+    border: 1px solid rgb(203, 203, 203) !important;
+}
+
+.p-1 {
+    padding: 4px;
+}
+
+.p-2 {
+    padding: 8px;
+}
+
+.mouse-pointer {
+    cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212121;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.3rem 0.3rem;
+    margin: 0 8px;
+    font-size: 1.3rem;
+    line-height: 1.84615;
+    border-radius: 4px;
+    min-width: 60px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn:hover {
+    color: #212121;
+    text-decoration: none;
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn:disabled {
+    opacity: 0.65;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #376CA1;
+    border-color: #376CA1;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #3D84CA;
+    border-color: #3D84CA;
+    outline: none;
+}
+
+.btn-primary:active {
+    background-color: #316190;
+    border-color: #316190;
+}
+
+.btn[disabled], .btn:disabled:focus, .btn:disabled:hover {
+    color: #707070 !important;
+    background-color: #cbcbcb !important;
+    border-color: #cbcbcb !important;
+    cursor: inherit;
+}
+
+.btn.btn-secondary {
+    color: #5a5a5a;
+    background-color: #ffffff;
+    border-color: #e4e4e4;
+}
+
+.btn-secondary:focus {
+    background-color: #f7f7f7;
+}
+
+.btn-secondary:active {
+    background-color: #cbcbcb;
+}
