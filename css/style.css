@@ -10,6 +10,10 @@
     padding: 4px;
 }
 
+.open-tile-group .tile:not(:first-child) {
+    margin-left: -20px;
+}
+
 .hand-info {
     padding: 12px;
 }
