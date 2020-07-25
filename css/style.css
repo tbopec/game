@@ -2,7 +2,7 @@
     flex-wrap: wrap;
     width: 100%;
     /*min-width: 330px;*/
-    min-height: 60px;
+    min-height: 52px;
     /*max-height: 160px;*/
     overflow: auto;
     align-content: flex-start;
