@@ -35,17 +35,22 @@
     padding: 9px;
 }
 
-.hand {
+.bar {
     position: fixed;
-    display: flex;
+    left: 0;
+    right: 0;
     bottom: 0;
-    flex-wrap: nowrap;
     margin-left: -8px;
+}
+
+.hand {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    max-width: 700px;
     /*height: 80px;*/
     /*padding: 8px;*/
     box-shadow: 0 16px 24px yellow, 0 16px 32px rgba(0, 0, 0, 0.16), 0 0 24px rgba(0, 0, 0, 0.08);
-    left: 0;
-    right: 0;
     background: #003a3a;
 }
 
